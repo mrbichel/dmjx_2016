@@ -1,6 +1,10 @@
 # DMJX 2016
 
 
+Install serial chip driver
+https://github.com/nodemcu/nodemcu-devkit/wiki/Getting-Started-on-OSX
+
+
 
 Node MCU
 
@@ -8,12 +12,18 @@ Introduction to Node MCU
 
 Introduction to Micro Python
 
-Installing prerequisites:
-
+Installing usefull tools:
 1. installing homebrew
 http://brew.sh/
 
-Tools we use:
+brew cask install coolterm 
+
+
+You need python 2.7 or later. Run to check:
+python --version    
+
+If you don't have it you can:
+brew install python
 
 http://nodemcu.com/
 
