@@ -14,8 +14,13 @@ Installing prerequisites:
 1. installing homebrew
 http://brew.sh/
 
-2. pip 
+Tools we use:
 
+http://nodemcu.com/
+
+Micropython is [python](https://www.python.org/) almost.
+
+2. pip 
 Getting started: 
 
 1. Download the latest stable firmware for esp8266: http://micropython.org/download/
@@ -33,6 +38,8 @@ with ESplorer:
 	connect 
 	reset
 
+Libraries can be installed from:
+https://github.com/micropython/micropython-lib
 
 
 
