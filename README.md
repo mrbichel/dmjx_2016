@@ -1,6 +1,5 @@
 # DMJX 2016
 
-DMJX
 
 
 Node MCU
@@ -18,7 +17,7 @@ Tools we use:
 
 http://nodemcu.com/
 
-Micropython is [python](https://www.python.org/) almost.
+Micropython is [python](https://www.python.org/) almost. Python is pretty [rad](http://xkcd.com/353/). 
 
 2. pip 
 Getting started: 
