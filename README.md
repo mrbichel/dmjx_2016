@@ -23,20 +23,24 @@ Micropython is [python](https://www.python.org/) almost.
 2. pip 
 Getting started: 
 
-1. Download the latest stable firmware for esp8266: http://micropython.org/download/
-2. Install esptool 
-  $ pip install esptool
-3. install using esptool:
-  $ python esptool.py -p /dev/tty.SLAB_USBtoUART --baud 460800 write_flash --flash_size=8m -fm dio 0 esp8266-20160809-v1.8.3.bin
+1. Download the latest stable micropython firmware for esp8266: http://micropython.org/download/
+2. Install esptool  
+    $ pip install esptool
+3. install using esptool:  
+    $ python esptool.py -p /dev/tty.SLAB_USBtoUART --baud 460800 write_flash --flash_size=8m -fm dio 0 esp8266-20160809-v1.8.3.bin
 
 
-set baud 115200
+
+Download esplorer:
+http://esp8266.ru/esplorer/
 
 with ESplorer:
+set baud 115200
 	set micropython in settings
 	plugin 
 	connect 
 	reset
+
 
 Libraries can be installed from:
 https://github.com/micropython/micropython-lib
